@@ -1,3 +1,5 @@
+//write a program to year convert to months
+
 main()
 {
     var years=6;
