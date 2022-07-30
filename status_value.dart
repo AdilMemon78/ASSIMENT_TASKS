@@ -3,7 +3,7 @@
 import 'dart:io';
 main()
 {
-//     var number;
+//     String? number;
 
 //     print("your status on/off");
     
@@ -23,9 +23,9 @@ main()
 // {
 //         print('your status is false');
 //     }
-//      print('Not match number');
+     
 
-    bool status=false;
+    bool status=true;
     String? name;
 
     print("Enter 0n/off");

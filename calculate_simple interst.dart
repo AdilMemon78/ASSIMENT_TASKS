@@ -4,13 +4,17 @@ import 'dart:io';
 
 main()
 {
-    final rate=4.6;
-    double simple_interst,amount,time;
+        //const and double use
+     final persentage=5;
+    double simple_interst,amount,month;
 
     print("Enter a amount :");
     amount=double.parse(stdin.readLineSync()!);
-    print("Enter a time :");
-    time=double.parse(stdin.readLineSync()!);
+    
+    print("Enter a month :");
+   month=double.parse(stdin.readLineSync()!);
 
-    print("\n simple interse is ${simple_interst=(amount*rate*time)/100}");
+    print("\n simple interse is ${simple_interst=(amount*persentage*month)/100}");
+
+   
 }

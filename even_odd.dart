@@ -10,11 +10,11 @@ main()
 
     if(number%2==0)
     {
-        print('odd number');
+        print('even number');
 
     }
     else{
-        print('even number');
+        print('odd number');
     }
     
 

@@ -1,7 +1,9 @@
+//write a program user the value and sum,sab,mul,div
+
 import 'dart:io';
 main()
 {
-    double a,b,c;
+    double a,b;
 
     print("Enter a num1");
     a=double.parse(stdin.readLineSync()!);
@@ -9,8 +11,8 @@ main()
     print("Enter a num2");
     b=double.parse(stdin.readLineSync()!);
 
-    print("\n your sum is ${c=a+b}");
-    print("\n your sab is ${c=a-b}");
-    print("\n your mul is ${c=a*b}");
-    print("\n your div is ${c=a/b}");
+    print("\n your sum is ${a+b}");
+    print("\n your sab is ${a-b}");
+    print("\n your mul is ${a*b}");
+    print("\n your div is ${a/b}");
 }

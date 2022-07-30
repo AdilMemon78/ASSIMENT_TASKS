@@ -1,13 +1,15 @@
+//write aprogram year convret to month
+
 import 'dart:io';
 
 main()
 
 
 {
-    int year;
+    double year;
 
     print("Enter a year :");
-    year=int.parse(stdin.readLineSync()!);
+    year=double.parse(stdin.readLineSync()!);
 
     print("youur month is ${year*12}");
 }

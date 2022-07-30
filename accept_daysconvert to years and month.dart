@@ -4,11 +4,11 @@ import 'dart:io';
 
 main()
 {
-    double days,month,year;
+    double days;
 
     print("Enter a days :");
     days=double.parse(stdin.readLineSync()!);
 
-    print("Enter month is ${month=days/30}");
-    print("Enter year  ${year=month/12}");
+    print("your month is ${days/30}");
+    print("your year  is ${days/365}");
 }

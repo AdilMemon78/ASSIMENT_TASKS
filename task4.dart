@@ -3,7 +3,7 @@
 main()
 {
     var months=4;
-    var days=months*35;
+    var days=months*30;
 
     print(days);
 }
