@@ -37,8 +37,8 @@ main()
         print(status=true);
 
     }
-    else{
-        
+    else
+    {
         print(status=false);
     }
 

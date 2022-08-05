@@ -43,7 +43,8 @@ main()
         print('first number greatest number');
 
     }
-    else{
+    else
+    {
         print(' first number is smallest number');
     }
 
