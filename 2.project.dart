@@ -9,7 +9,7 @@ main()
     String? name,yn;
     final pizza_price=10.99;
     final pasta_price=9.5;
-    var i,a=0,b=0,c=0;
+    var i ,a=0,b=0,c=0;
     var status=true;
 
     print(" press 1 : order menu");

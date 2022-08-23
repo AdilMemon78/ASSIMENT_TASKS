@@ -8,20 +8,20 @@ main()
     var amount_dosa=0;
     var amount_idli=0;
   print("----------------------------------------------------------------\n");
-  print("Welcome To food maniya\n");
+  print("\t\tWelcome To food maniya\n");
   print("----------------------------------------------------------------");
 
   var amount;
   while (status) 
-  {
+   {
         print("-------------Manu---------------");
         print("1. Pizz   price = 180rs/pcs");
         print("2. Burger price = 100rs/pcs");
         print("3. Dosa   price = 120rs/pcs");
         print("4. Idli   price = 50rs/pcs");
         print("Enter Your Choice:");
-
         var manu = int.parse(stdin.readLineSync()!);
+        
         if (manu == 1) 
         {
             print("you have selected pizz ");
